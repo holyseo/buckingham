@@ -3,7 +3,7 @@ function App() {
     <>
       <div className=" max-w-[1920px] mx-auto h-auto bg-[#F0F0F0] border-[2px] border-opacity-20 border-[#BEBEBE]">
         <div className=" relative bg-black">
-          <img src="src/assets/images/MaskGroup1.png" className="opacity-50" />
+          <img src="images/MaskGroup1.png" className="opacity-50" />
           <div className=" absolute inset-0 ">
             <div className="flex flex-row justify-between items-start mt-[33px]  text-white text-[20px] px-14 font-Noto font-light">
               <div className="flex flex-row justify-between w-[492px] py-4">
@@ -23,7 +23,7 @@ function App() {
             </div>
             <div className="text-white mt-18 flex flex-col items-center">
               <div className=" mt-36">
-                <img src="/src/assets/images/Image1.png" />
+                <img src="images/Image1.png" />
               </div>
               <div className="text-[40px] mt-12 font-Cormorant ">
                 INVESTING IN INNOVATIVE ARTISTS
@@ -49,7 +49,7 @@ function App() {
           <div className="mt-10 flex flex-row gap-8 items-center">
             <div className="w-[534px] h-[616px] flex flex-col justify-between border-[1px] border-[#BEBEBE] shadow-[0px_0px_5px_rgba(0,0,0,0.25)] bg-white">
               <div className="w-fit">
-                <img src="src/assets/images/Rectangle6.png" />
+                <img src="images/Rectangle6.png" />
               </div>
               <div className="text-[30px] px-8 text-[#1C1C1C] font-Cormorant font-semibold">
                 PROMOTE YOUR ARTWORK
@@ -67,7 +67,7 @@ function App() {
             </div>
             <div className="w-[534px] h-[616px] flex flex-col justify-between border-[1px] border-[#BEBEBE] shadow-[0px_0px_5px_rgba(0,0,0,0.25)] bg-white">
               <div className="w-fit">
-                <img src="src/assets/images/Rectangle8.png" />
+                <img src="images/Rectangle8.png" />
               </div>
               <div className="text-[30px] px-8 text-[#1C1C1C] font-Cormorant font-semibold ">
                 SELL OUR PORTFOLIO
@@ -85,7 +85,7 @@ function App() {
             </div>
             <div className="w-[534px] h-[616px] flex flex-col justify-between border-[1px] border-[#BEBEBE] shadow-[0px_0px_5px_rgba(0,0,0,0.25)] bg-white">
               <div className="w-fit">
-                <img src="src/assets/images/Rectangle10.png" />
+                <img src="images/Rectangle10.png" />
               </div>
               <div className="text-[30px] px-8 text-[#1C1C1C] font-Cormorant font-semibold">
                 BUY HIGH QUALITY ARTWORKS
@@ -115,37 +115,37 @@ function App() {
           <div className="mt-8 flex flex-row justify-between items-center w-full px-32">
             <div>
               <img
-                src="src/assets/images/Rectangle15.png"
+                src="images/Rectangle15.png"
                 className="w-[248px] h-[234px]"
               />
             </div>
             <div>
               <img
-                src="src/assets/images/Rectangle16.png"
+                src="images/Rectangle16.png"
                 className="w-[248px] h-[234px]"
               />
             </div>
             <div>
               <img
-                src="src/assets/images/Rectangle18.png"
+                src="images/Rectangle18.png"
                 className="w-[248px] h-[234px]"
               />
             </div>
             <div>
               <img
-                src="src/assets/images/Rectangle17.png"
+                src="images/Rectangle17.png"
                 className="w-[248px] h-[234px]"
               />
             </div>
             <div>
               <img
-                src="src/assets/images/Rectangle20.png"
+                src="images/Rectangle20.png"
                 className="w-[248px] h-[234px]"
               />
             </div>
             <div>
               <img
-                src="src/assets/images/Rectangle19.png"
+                src="images/Rectangle19.png"
                 className="w-[248px] h-[234px]"
               />
             </div>
@@ -155,7 +155,7 @@ function App() {
           </div>
         </div>
         <div className="relative bg-black font-Cormorant">
-          <img src="src/assets/images/Rectangle29.png" className="opacity-30" />
+          <img src="images/Rectangle29.png" className="opacity-30" />
           <div className="absolute inset-0  w-[1287px] flex flex-col gap-4 justify-center mx-auto px-10">
             <div className="text-[54px] text-white  leading-tight">
               Duis tincidunt ornare dignissim. Duis mi risus, tincidunt varius
@@ -171,7 +171,7 @@ function App() {
           <div className="w-[825px] h-[377px] flex flex-row border-[1px] border-[#BEBEBE] shadow-[0px_0px_5px_rgba(0,0,0,0.25)] bg-white ">
             <div className="w-1/3">
               <img
-                src="src/assets/images/Rectangle24.png"
+                src="images/Rectangle24.png"
                 className="w-[288px] h-[375px]"
               />
             </div>
@@ -194,7 +194,7 @@ function App() {
           <div className="w-[825px] h-[377px] flex flex-row border-[1px] border-[#BEBEBE] shadow-[0px_0px_5px_rgba(0,0,0,0.25)] bg-white ">
             <div className="w-1/3">
               <img
-                src="src/assets/images/Rectangle26.png"
+                src="images/Rectangle26.png"
                 className="w-[288px] h-[375px]"
               />
             </div>
@@ -222,10 +222,7 @@ function App() {
         </div>
         <div className="h-[295px] bg-white flex flex-col items-center p-[43px] gap-8 ">
           <div>
-            <img
-              src="src/assets/images/Image2.png"
-              className="w-[271px] h-[98px]"
-            />
+            <img src="images/Image2.png" className="w-[271px] h-[98px]" />
           </div>
           <div className="w-[1134px] flex flex-col justify-between items-center gap-3 text-[18px] text-[#5F5F5F] font-Noto">
             <p>
