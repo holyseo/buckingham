@@ -5,7 +5,7 @@ function App() {
         <div className=" relative bg-black">
           <img src="images/MaskGroup1.png" className="opacity-50" />
           <div className=" absolute inset-0 ">
-            <div className="flex flex-row flex-wrap justify-center xl:justify-between gap-x-24 items-start mt-[10px] xl:mt-[33px] text-white text-[20px] px-14 font-Noto font-light">
+            <div className="flex flex-row flex-wrap justify-center xl:justify-between gap-x-24 items-start mt-[10px] xl:mt-[33px] text-white text-[16px] xl:text-[20px] px-14 font-Noto font-light">
               <div className="flex flex-row justify-between w-[492px] py-3">
                 <div className=" cursor-pointer">Home</div>
                 <div className=" cursor-pointer">About</div>
@@ -233,11 +233,15 @@ function App() {
               Business Park, Third Avenue, Milton Keynes, Bucks. MK1 1DH.
               England
             </p>
-            <p>
-              Company Number 01608690 Tel: 01908 658830 Email:
-              <span className=" underline underline-offset-1">
-                admin@bucksfineart.co.uk
-              </span>
+            <p className="flex flex-row flex-wrap justify-center gap-x-10">
+              <div>Company Number 01608690</div>
+              <div>Tel: 01908 658830</div>
+              <div>
+                Email:
+                <span className=" underline underline-offset-1">
+                  admin@bucksfineart.co.uk
+                </span>
+              </div>
             </p>
           </div>
         </div>
