@@ -109,7 +109,7 @@ function App() {
                 Duis tincidunt ornare dignissim. Duis mi risus, tincidunt varius
                 condimentum in.
               </div>
-              <div className="xs:mt-6 sm:mt-16 3xs:hidden sm:block sm:text-[20px] border-2 border-white px-4 py-2 cursor-pointer font-Noto font-[300]  hover:bg-orange-800 hover:opacity-80 hover:rounded-md transition-all duration-300">
+              <div className="xs:mt-6 sm:mt-16 3xs:hidden sm:block sm:text-[20px] border-2 border-white px-4 py-2 cursor-pointer font-Noto font-[300]  hover:bg-orange-800 hover:opacity-80 transition-all duration-300">
                 About us
               </div>
             </div>
@@ -134,7 +134,7 @@ function App() {
                 Duis tincidunt ornare dignissim. Duis mi risus, tincidunt varius
                 condimentum in.
               </div>
-              <div className="bg-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-3 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto transition-all hover:scale-105 duration-150">
+              <div className="bg-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-3 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300 ">
                 Artist Submissions
               </div>
             </div>
@@ -152,7 +152,7 @@ function App() {
                 condimentum in. Suspendisse at lorem id velit condimentum
                 sagittis. Praesent ac feugiat nisi.
               </div>
-              <div className="bg-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-3 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto transition-all hover:scale-105 duration-150">
+              <div className="bg-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-3 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300">
                 Trade Enquiries
               </div>
             </div>
@@ -170,7 +170,7 @@ function App() {
                 ad litora torquent per conubia nostra, per inceptos himenaeos.
                 Suspendisse potenti.
               </div>
-              <div className="bg-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-3 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto transition-all hover:scale-105 duration-150">
+              <div className="bg-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-3 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300">
                 Where to Buy
               </div>
             </div>
@@ -205,7 +205,7 @@ function App() {
               <img src="images/Rectangle19.png" className="w-[248px] h-auto" />
             </div>
           </div>
-          <div className="my-14 bg-[#AC9B65] 3xs:text-[8px] 2xs:text-[12px] xs:text-[20px]  p-4 w-fit text-white m-4 cursor-pointer font-Noto transition-all hover:scale-105 duration-150">
+          <div className="my-14 bg-[#AC9B65] 3xs:text-[8px] 2xs:text-[12px] xs:text-[20px]  p-4 w-fit text-white m-4 cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300">
             Browser Our Artists
           </div>
         </div>
@@ -241,7 +241,7 @@ function App() {
                 ornare dignissim. Duis mi risus, tincidunt varius condimentum
                 in.
               </div>
-              <div className=" bg-[#AC9B65] 2xs:text-[7px] xs:text-[9px] sm:text-[20px] py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-150 ">
+              <div className=" bg-[#AC9B65] 2xs:text-[7px] xs:text-[9px] sm:text-[20px] py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300 ">
                 Read more
               </div>
             </div>
@@ -261,14 +261,14 @@ function App() {
                 condimentum in. Suspendisse at lorem id velit condimentum
                 sagittis.
               </div>
-              <div className=" bg-[#AC9B65] 2xs:text-[7px] xs:text-[9px] sm:text-[20px] py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-150 ">
+              <div className=" bg-[#AC9B65] 2xs:text-[7px] xs:text-[9px] sm:text-[20px] py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300 ">
                 Read more
               </div>
             </div>
           </div>
         </div>
         <div className="mt-[116px] mb-[72px] ">
-          <div className=" mx-auto  bg-[#AC9B65]  3xs:text-[8px] 2xs:text-[12px] xs:text-[20px]  py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-150 ">
+          <div className=" mx-auto  bg-[#AC9B65]  3xs:text-[8px] 2xs:text-[12px] xs:text-[20px]  py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300 ">
             All News & Media
           </div>
         </div>
