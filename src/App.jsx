@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -9,10 +9,10 @@ function App() {
         <div className=" relative bg-black">
           <img
             src="images/MaskGroup1.png"
-            className="min-h-[280px] object-cover w-full max-h-[1082px] opacity-50"
+            className=" object-cover w-full max-h-[1082px] opacity-50"
           />
           <div className=" absolute inset-0 max-w-[1920px] mx-auto">
-            <div className="3xs:invisible md:visible flex flex-row justify-center xl:justify-between gap-x-24 items-start mt-[10px] xl:mt-[33px] text-white text-[16px] xl:text-[20px] px-14 font-Noto font-light">
+            <div className="3xs:hidden md:flex flex-row justify-center xl:justify-between gap-x-24 items-start mt-[10px] xl:mt-[33px] text-white text-[16px] xl:text-[20px] px-14 font-Noto font-light">
               <div className="flex flex-row justify-between w-[492px] py-3">
                 <div className=" cursor-pointer">Home</div>
                 <div className=" cursor-pointer">About</div>
@@ -30,43 +30,43 @@ function App() {
             </div>
             <div
               onClick={() => setToggle(!toggle)}
-              className="grid place-content-center md:hidden"
+              className="grid place-content-end md:hidden"
             >
               <div
-                className={`absolute end-10 cursor-pointer w-12 h-2 bg-white rounded-full transition-all duration-150 before:content-[''] before:absolute before:w-12 before:h-2 before:bg-white before:rounded-full before:-translate-y-4 after:absolute after:w-12 after:h-2 after:bg-white after:rounded-full after:translate-y-4 ${
+                className={`absolute end-4 top-10 cursor-pointer w-10 h-2 bg-white rounded-full transition-all duration-300 before:content-[''] before:absolute before:w-10 before:h-2 before:bg-white before:rounded-full before:-translate-y-4 after:absolute after:w-10 after:h-2 after:bg-white after:rounded-full after:translate-y-4 ${
                   toggle
-                    ? `before:rotate-45 before:translate-y-0 before:transition-all before:duration-150 after:-rotate-45 after:translate-y-0 h-0 after:transition-all after:duration-150`
+                    ? `z-50 before:bg-white before:rotate-45 before:translate-y-0 before:transition-all before:duration-300 after:bg-white after:-rotate-45 after:translate-y-0 h-0 after:transition-all after:duration-300`
                     : null
                 }`}
               ></div>
 
               <div
-                className={`bg-white absolute top-0 w-full z-50 p-1 opacity-75 ${
-                  !toggle ? "sm:hidden absolute bottom-10" : null
+                className={`text-white w-full h-72 flex justify-center gap-6 3xs:text-[10px] xs:text-[18px] ${
+                  toggle ? "bg-black absolute top-0 opacity-85" : "3xs:hidden"
                 }`}
               >
-                <div className="grid grid-cols-5 place-items-center py-10 w-[80%]">
+                <div className="grid grid-rows-5 place-items-start items-center py-10 3xs:pr-1 xs:pr-16">
                   <div className=" cursor-pointer">Home</div>
                   <div className=" cursor-pointer">About</div>
                   <div className=" cursor-pointer">Our Artists</div>
                   <div className=" cursor-pointer">Where to Buy</div>
                   <div className=" cursor-pointer">Blog</div>
                 </div>
-                <div className="grid grid-cols-3 place-items-center w-[80%]">
-                  <div className=" cursor-pointer col-span-1">
+                <div className="grid grid-rows-5 place-items-start items-center py-10 3xs:pr-1 sm:pr-16 ">
+                  <div></div>
+                  <div className=" cursor-pointer row-span-1 ">
                     Artist Submissions
                   </div>
-                  <div className=" cursor-pointer col0-span-2">
-                    Trade Enquiries
-                  </div>
-                  <div className="bg-[#AC9B65] h-fit py-3 px-5 cursor-pointer col-span-1">
+                  <div className=" cursor-pointer ">Trade Enquiries</div>
+                  <div className="bg-[#AC9B65] h-fit py-2 px-3 cursor-pointer ">
                     Arthub Login
                   </div>
+                  <div></div>
                 </div>
               </div>
             </div>
             <div className="text-white mt-18 flex flex-col items-center justify-center">
-              <div className="2xs:mt-10 lg:mt-20 ">
+              <div className="3xs:mt-12 lg:mt-20 ">
                 <img src="images/Image1.png" className="w-1/2 mx-auto" />
               </div>
               <div className="3xs:text-[0] xs:text-[20px] sm:text-[25px] lg:text-[40px] mt-5 xl:mt-12 font-Cormorant ">
@@ -243,7 +243,7 @@ function App() {
             All News & Media
           </div>
         </div>
-        <div className="max-h-[295px] bg-white flex flex-col items-center p-[43px] gap-8">
+        <div className=" bg-white flex flex-col items-center px-[43px] gap-8 py-12">
           <div>
             <img src="images/Image2.png" className="object-cover" />
           </div>
