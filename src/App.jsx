@@ -49,7 +49,7 @@ function App() {
               <div
                 className={`absolute end-10 top-10 cursor-pointer w-8 h-1 bg-white rounded-full transition-all duration-300 before:content-[''] before:absolute before:w-8 before:h-1 before:bg-white before:rounded-full before:-translate-y-3 after:absolute after:w-8 after:h-1 after:bg-white after:rounded-full after:translate-y-3 ${
                   toggle
-                    ? `z-50 h-[0] before:bg-white before:rotate-45 before:translate-y-1 before:transition-all before:duration-500 after:bg-white after:-rotate-45 after:translate-y-1 after:transition-all after:duration-500`
+                    ? `z-50 h-[0] before:bg-white before:rotate-45 before:translate-y-2 before:transition-all before:duration-500 after:bg-white after:-rotate-45 after:translate-y-2 after:transition-all after:duration-500`
                     : null
                 }`}
               ></div>
