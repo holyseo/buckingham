@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -12,18 +12,32 @@ function App() {
             className=" object-cover w-full max-h-[1082px] opacity-50"
           />
           <div className=" absolute inset-0 max-w-[1920px] mx-auto">
-            <div className="3xs:hidden md:flex flex-row justify-center xl:justify-between gap-x-24 items-start mt-[10px] xl:mt-[33px] text-white text-[16px] xl:text-[20px] px-14 font-Noto font-light">
+            <div className="3xs:hidden md:flex flex-row justify-center xl:justify-between gap-x-28 items-start mt-[33px] text-white text-[20px] px-14 font-Noto font-light">
               <div className="flex flex-row justify-between w-[492px] py-3">
-                <div className=" cursor-pointer">Home</div>
-                <div className=" cursor-pointer">About</div>
-                <div className=" cursor-pointer">Our Artists</div>
-                <div className=" cursor-pointer">Where to Buy</div>
-                <div className=" cursor-pointer">Blog</div>
+                <div className=" cursor-pointer hover:underline underline-offset-8 hover:text-orange-500 transition-all duration-300">
+                  Home
+                </div>
+                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                  About
+                </div>
+                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                  Our Artists
+                </div>
+                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                  Where to Buy
+                </div>
+                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                  Blog
+                </div>
               </div>
               <div className="flex flex-row justify-between items-center w-[514px]">
-                <div className=" cursor-pointer">Artist Submissions</div>
-                <div className=" cursor-pointer">Trade Enquiries</div>
-                <div className="bg-[#AC9B65] h-fit py-3 px-5 cursor-pointer">
+                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                  Artist Submissions
+                </div>
+                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                  Trade Enquiries
+                </div>
+                <div className="bg-[#AC9B65] h-fit py-3 px-5 cursor-pointer  hover:bg-orange-700 hover:opacity-80 hover:rounded-md transition-all duration-300">
                   Arthub Login
                 </div>
               </div>
@@ -33,32 +47,44 @@ function App() {
               className="grid place-content-end md:hidden"
             >
               <div
-                className={`absolute end-4 top-10 cursor-pointer w-10 h-2 bg-white rounded-full transition-all duration-300 before:content-[''] before:absolute before:w-10 before:h-2 before:bg-white before:rounded-full before:-translate-y-4 after:absolute after:w-10 after:h-2 after:bg-white after:rounded-full after:translate-y-4 ${
+                className={`absolute end-10 top-10 cursor-pointer w-8 h-1 bg-white rounded-full transition-all duration-300 before:content-[''] before:absolute before:w-8 before:h-1 before:bg-white before:rounded-full before:-translate-y-3 after:absolute after:w-8 after:h-1 after:bg-white after:rounded-full after:translate-y-3 ${
                   toggle
-                    ? `z-50 before:bg-white before:rotate-45 before:translate-y-0 before:transition-all before:duration-300 after:bg-white after:-rotate-45 after:translate-y-0 h-0 after:transition-all after:duration-300`
+                    ? `z-50 h-[0] before:bg-white before:rotate-45 before:translate-y-1 before:transition-all before:duration-500 after:bg-white after:-rotate-45 after:translate-y-1 after:transition-all after:duration-500`
                     : null
                 }`}
               ></div>
 
               <div
-                className={`text-white w-full h-72 flex justify-center gap-6 3xs:text-[10px] xs:text-[18px] ${
-                  toggle ? "bg-black absolute top-0 opacity-85" : "3xs:hidden"
+                className={`text-white w-full h-80 flex justify-center gap-10 3xs:text-[10px] 2xs:text-[16px] ${
+                  toggle ? "bg-black absolute top-0 opacity-90" : "3xs:hidden"
                 }`}
               >
-                <div className="grid grid-rows-5 place-items-start items-center py-10 3xs:pr-1 xs:pr-16">
-                  <div className=" cursor-pointer">Home</div>
-                  <div className=" cursor-pointer">About</div>
-                  <div className=" cursor-pointer">Our Artists</div>
-                  <div className=" cursor-pointer">Where to Buy</div>
-                  <div className=" cursor-pointer">Blog</div>
+                <div className="grid grid-rows-5 place-items-start items-center py-10 xs:pr-16">
+                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                    Home
+                  </div>
+                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                    About
+                  </div>
+                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                    Our Artists
+                  </div>
+                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                    Where to Buy
+                  </div>
+                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                    Blog
+                  </div>
                 </div>
-                <div className="grid grid-rows-5 place-items-start items-center py-10 3xs:pr-1 sm:pr-16 ">
+                <div className="grid grid-rows-5 gap-12 place-items-start items-center py-10 sm:pr-16 ">
                   <div></div>
-                  <div className=" cursor-pointer row-span-1 ">
+                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
                     Artist Submissions
                   </div>
-                  <div className=" cursor-pointer ">Trade Enquiries</div>
-                  <div className="bg-[#AC9B65] h-fit py-2 px-3 cursor-pointer ">
+                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                    Trade Enquiries
+                  </div>
+                  <div className="bg-[#AC9B65] h-fit py-1 px-2 cursor-pointer  hover:bg-orange-700 hover:opacity-90 hover:rounded-md transition-all duration-300">
                     Arthub Login
                   </div>
                   <div></div>
@@ -66,21 +92,24 @@ function App() {
               </div>
             </div>
             <div className="text-white mt-18 flex flex-col items-center justify-center">
-              <div className="3xs:mt-12 lg:mt-20 ">
-                <img src="images/Image1.png" className="w-1/2 mx-auto" />
+              <div className="3xs:mt-12  ">
+                <img
+                  src="images/Image1.png"
+                  className="3xs:w-[50%] sm:w-[60%] md:w-fit mx-auto"
+                />
               </div>
-              <div className="3xs:text-[0] xs:text-[20px] sm:text-[25px] lg:text-[40px] mt-5 xl:mt-12 font-Cormorant ">
+              <div className="3xs:text-[0] 2xs:text-[12px] xs:text-[25px] sm:text-[40px] mt-5 xl:mt-12 font-Cormorant ">
                 INVESTING IN INNOVATIVE ARTISTS
                 <span className="text-[#AC9B65]"> SINCE 1983</span>
               </div>
-              <div className="max-w-[764px] mt-2 xl:mt-6 3xs:text-[0] sm:text-[18px] md:text-[20px] text-center tracking-wide font-Noto font-[300] ">
+              <div className="max-w-[764px] mt-3 xl:mt-6 3xs:text-[0] xs:text-[15px] sm:text-[20px] mx-5 text-center tracking-wide font-Noto font-[300] ">
                 Suspendisse at lorem id velit condimentum sagittis. Praesent ac
                 feugiat nisi. Class aptent taciti sociosqu ad litora torquent
                 per conubia nostra, per inceptos himenaeos. Suspendisse potenti.
                 Duis tincidunt ornare dignissim. Duis mi risus, tincidunt varius
                 condimentum in.
               </div>
-              <div className="xs:mt-6 sm:mt-16 3xs:invisible md:visible md:text-[12px] sm:text-[20px] border-2 border-white px-4 py-2 cursor-pointer font-Noto font-[300]">
+              <div className="xs:mt-6 sm:mt-16 3xs:hidden sm:block sm:text-[20px] border-2 border-white px-4 py-2 cursor-pointer font-Noto font-[300]  hover:bg-orange-800 hover:opacity-80 hover:rounded-md transition-all duration-300">
                 About us
               </div>
             </div>
@@ -105,7 +134,7 @@ function App() {
                 Duis tincidunt ornare dignissim. Duis mi risus, tincidunt varius
                 condimentum in.
               </div>
-              <div className="bg-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-3 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto">
+              <div className="bg-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-3 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto transition-all hover:scale-105 duration-150">
                 Artist Submissions
               </div>
             </div>
@@ -123,7 +152,7 @@ function App() {
                 condimentum in. Suspendisse at lorem id velit condimentum
                 sagittis. Praesent ac feugiat nisi.
               </div>
-              <div className="bg-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-3 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto">
+              <div className="bg-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-3 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto transition-all hover:scale-105 duration-150">
                 Trade Enquiries
               </div>
             </div>
@@ -141,7 +170,7 @@ function App() {
                 ad litora torquent per conubia nostra, per inceptos himenaeos.
                 Suspendisse potenti.
               </div>
-              <div className="bg-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-3 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto">
+              <div className="bg-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-3 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto transition-all hover:scale-105 duration-150">
                 Where to Buy
               </div>
             </div>
@@ -157,26 +186,26 @@ function App() {
             dignissim.
           </div>
           <div className="mt-8 grid grid-cols-3 3xs:grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 2xl:grid-cols-6 gap-[40px] ">
-            <div>
-              <img src="images/Rectangle15.png" className="w-[248px] h-auto" />
+            <div className="transition duration-200 hover:opacity-60 cursor-pointer">
+              <img src="images/Rectangle15.png" className="w-[248px] h-auto " />
             </div>
-            <div>
+            <div className="transition duration-200 hover:opacity-60 cursor-pointer">
               <img src="images/Rectangle16.png" className="w-[248px] h-auto" />
             </div>
-            <div>
+            <div className="transition duration-200 hover:opacity-60 cursor-pointer">
               <img src="images/Rectangle18.png" className="w-[248px] h-auto" />
             </div>
-            <div>
+            <div className="transition duration-200 hover:opacity-60 cursor-pointer">
               <img src="images/Rectangle17.png" className="w-[248px] h-auto" />
             </div>
-            <div>
+            <div className="transition duration-200 hover:opacity-60 cursor-pointer">
               <img src="images/Rectangle20.png" className="w-[248px] h-auto" />
             </div>
-            <div>
+            <div className="transition duration-200 hover:opacity-60 cursor-pointer">
               <img src="images/Rectangle19.png" className="w-[248px] h-auto" />
             </div>
           </div>
-          <div className="my-14 bg-[#AC9B65] 3xs:text-[8px] 2xs:text-[12px] xs:text-[20px]  p-4 w-fit text-white m-4 cursor-pointer font-Noto ">
+          <div className="my-14 bg-[#AC9B65] 3xs:text-[8px] 2xs:text-[12px] xs:text-[20px]  p-4 w-fit text-white m-4 cursor-pointer font-Noto transition-all hover:scale-105 duration-150">
             Browser Our Artists
           </div>
         </div>
@@ -212,7 +241,7 @@ function App() {
                 ornare dignissim. Duis mi risus, tincidunt varius condimentum
                 in.
               </div>
-              <div className=" bg-[#AC9B65] 2xs:text-[7px] xs:text-[9px] sm:text-[20px] py-3 px-5 w-fit text-white cursor-pointer font-Noto ">
+              <div className=" bg-[#AC9B65] 2xs:text-[7px] xs:text-[9px] sm:text-[20px] py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-150 ">
                 Read more
               </div>
             </div>
@@ -232,14 +261,14 @@ function App() {
                 condimentum in. Suspendisse at lorem id velit condimentum
                 sagittis.
               </div>
-              <div className=" bg-[#AC9B65] 2xs:text-[7px] xs:text-[9px] sm:text-[20px] py-3 px-5 w-fit text-white cursor-pointer font-Noto ">
+              <div className=" bg-[#AC9B65] 2xs:text-[7px] xs:text-[9px] sm:text-[20px] py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-150 ">
                 Read more
               </div>
             </div>
           </div>
         </div>
         <div className="mt-[116px] mb-[72px] ">
-          <div className=" mx-auto  bg-[#AC9B65]  3xs:text-[8px] 2xs:text-[12px] xs:text-[20px]  py-3 px-5 w-fit text-white cursor-pointer font-Noto  ">
+          <div className=" mx-auto  bg-[#AC9B65]  3xs:text-[8px] 2xs:text-[12px] xs:text-[20px]  py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-150 ">
             All News & Media
           </div>
         </div>
