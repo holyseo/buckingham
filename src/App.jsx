@@ -14,19 +14,19 @@ function App() {
           <div className=" absolute inset-0 max-w-[1920px] mx-auto">
             <div className="3xs:hidden md:flex flex-row justify-center xl:justify-between gap-x-28 items-start mt-[33px] text-white text-[20px] px-14 font-Noto font-light">
               <div className="flex flex-row justify-between w-[492px] py-3">
-                <div className=" cursor-pointer hover:underline underline-offset-8 hover:text-orange-500 transition-all duration-300">
+                <div className=" cursor-pointer hover:underline underline-offset-8 hover:text-indigo-500 transition-all duration-300">
                   Home
                 </div>
-                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
                   About
                 </div>
-                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
                   Our Artists
                 </div>
-                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
                   Where to Buy
                 </div>
-                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
                   Blog
                 </div>
               </div>
@@ -60,19 +60,19 @@ function App() {
                 }`}
               >
                 <div className="grid grid-rows-5 place-items-start items-center py-10 xs:pr-16">
-                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
                     Home
                   </div>
-                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
                     About
                   </div>
-                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
                     Our Artists
                   </div>
-                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
                     Where to Buy
                   </div>
-                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
                     Blog
                   </div>
                 </div>
@@ -92,10 +92,10 @@ function App() {
               </div>
             </div>
             <div className="text-white mt-18 flex flex-col items-center justify-center">
-              <div className="3xs:mt-12  ">
+              <div className="3xs:mt-8 lg:mt-16 xl:mt-20 ">
                 <img
                   src="images/Image1.png"
-                  className="3xs:w-[50%] sm:w-[60%] md:w-fit mx-auto"
+                  className="3xs:w-[50%] sm:w-[60%] md:w-fit mx-auto "
                 />
               </div>
               <div className="3xs:text-[0] 2xs:text-[12px] xs:text-[25px] sm:text-[40px] mt-5 xl:mt-12 font-Cormorant ">
