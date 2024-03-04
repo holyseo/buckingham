@@ -47,13 +47,12 @@ function App() {
               className="grid place-content-end md:hidden"
             >
               <div
-                className={`absolute end-10 top-10 cursor-pointer w-8 h-1 bg-white rounded-full transition-all duration-300 before:content-[''] before:absolute before:w-8 before:h-1 before:bg-white before:rounded-full before:-translate-y-[12px] after:absolute after:w-8 after:h-1 after:bg-white after:rounded-full after:translate-y-[12px] ${
+                className={`absolute 3xs:end-3 xs:end-10 top-10 cursor-pointer w-8 h-1 bg-white rounded-full transition-all duration-300 before:content-[''] before:absolute before:w-8 before:h-1 before:bg-white before:rounded-full before:-translate-y-[12px] after:absolute after:w-8 after:h-1 after:bg-white after:rounded-full after:translate-y-[12px] ${
                   toggle
                     ? `z-50 h-[0] before:bg-white before:rotate-45 before:translate-y-[12px] before:transition-all before:duration-500 after:bg-white after:-rotate-45 after:translate-y-[12px] after:transition-all after:duration-500`
                     : null
                 }`}
               ></div>
-
               <div
                 className={`text-white w-full h-80 flex justify-center gap-10 3xs:text-[10px] 2xs:text-[16px] ${
                   toggle ? "bg-black absolute top-0 opacity-90" : "3xs:hidden"
@@ -92,7 +91,7 @@ function App() {
               </div>
             </div>
             <div className="text-white mt-18 flex flex-col items-center justify-center">
-              <div className="3xs:mt-8 lg:mt-16 xl:mt-20 ">
+              <div className="3xs:mt-8 xl:mt-20 ">
                 <img
                   src="images/Image1.png"
                   className="3xs:w-[50%] sm:w-[60%] md:w-fit mx-auto "
@@ -102,7 +101,7 @@ function App() {
                 INVESTING IN INNOVATIVE ARTISTS
                 <span className="text-[#AC9B65]"> SINCE 1983</span>
               </div>
-              <div className="max-w-[764px] mt-3 xl:mt-6 3xs:text-[0] xs:text-[15px] sm:text-[20px] mx-5 text-center tracking-wide font-Noto font-[300] ">
+              <div className="max-w-[764px] 3xs:mt-3 xl:mt-6 3xs:text-[0] xs:text-[16px] sm:text-[20px] mx-5 text-center tracking-wide font-Noto font-[300] ">
                 Suspendisse at lorem id velit condimentum sagittis. Praesent ac
                 feugiat nisi. Class aptent taciti sociosqu ad litora torquent
                 per conubia nostra, per inceptos himenaeos. Suspendisse potenti.
