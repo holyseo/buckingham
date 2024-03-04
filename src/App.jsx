@@ -231,7 +231,7 @@ function App() {
               <img src="images/Rectangle24.png" className="object-cover" />
             </div>
             <div className="w-2/3 flex flex-col justify-between p-[18px]">
-              <div className="2xs:text-[18px] 2xs:leading-4 xs:text-[24px] sm:text-[30px] font-Cormorant font-semibold">
+              <div className="3xs:text-[16px] 3xs:leading-4 xs:text-[24px] sm:text-[30px] font-Cormorant font-semibold">
                 SUSPENDISSE AT LOREM
               </div>
               <div className=" 3xs:text-[0] xs:text-[14px] sm:text-[20px] text-[#5F5F5F] font-Noto">
@@ -241,7 +241,7 @@ function App() {
                 ornare dignissim. Duis mi risus, tincidunt varius condimentum
                 in.
               </div>
-              <div className=" bg-[#AC9B65] 2xs:text-[7px] xs:text-[9px] sm:text-[20px] py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300 ">
+              <div className=" bg-[#AC9B65] 3xs:text-[7px] 3xs:py-2 3xs:px-3 xs:text-[9px] sm:text-[20px] py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300 ">
                 Read more
               </div>
             </div>
@@ -251,7 +251,7 @@ function App() {
               <img src="images/Rectangle26.png" className="object-cover" />
             </div>
             <div className="w-2/3 flex flex-col justify-between p-[18px] ">
-              <div className="2xs:text-[18px] 2xs:leading-4 xs:text-[24px] sm:text-[30px] font-Cormorant font-semibold">
+              <div className="3xs:text-[16px] 3xs:leading-4 xs:text-[24px] sm:text-[30px] font-Cormorant font-semibold">
                 SUSPENDISSE POTENTI
               </div>
               <div className="3xs:text-[0] xs:text-[14px] sm:text-[20px] text-[#5F5F5F] font-Noto">
@@ -261,7 +261,7 @@ function App() {
                 condimentum in. Suspendisse at lorem id velit condimentum
                 sagittis.
               </div>
-              <div className=" bg-[#AC9B65] 2xs:text-[7px] xs:text-[9px] sm:text-[20px] py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300 ">
+              <div className=" bg-[#AC9B65] 3xs:text-[7px] 3xs:py-2 3xs:px-3 xs:text-[9px] sm:text-[20px] py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300 ">
                 Read more
               </div>
             </div>
@@ -284,11 +284,15 @@ function App() {
             </p>
             <p className="flex flex-row flex-wrap justify-center gap-x-10 ">
               <div>Company Number 01608690</div>
-              <div>Tel: 01908 658830</div>
+              <div>
+                <a href="tel: 01908 658830">Tel: 01908 658830</a>
+              </div>
               <div>
                 Email:
                 <span className=" underline underline-offset-1">
-                  admin@bucksfineart.co.uk
+                  <a href="mailto: admin@bucksfineart.co.uk">
+                    admin@bucksfineart.co.uk
+                  </a>
                 </span>
               </div>
             </p>
