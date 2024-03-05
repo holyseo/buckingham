@@ -228,7 +228,7 @@ function App() {
             <div className="w-[33%]">
               <img src="images/Rectangle24.png" className="object-cover" />
             </div>
-            <div className="w-2/3 flex flex-col justify-between p-[18px]">
+            <div className="flex flex-col justify-between w-2/3 3xs:p-4 xs:p-5 sm:p-8 ">
               <div className="3xs:text-[16px] 3xs:leading-4 xs:text-[24px] sm:text-[30px] font-Cormorant font-semibold">
                 SUSPENDISSE AT LOREM
               </div>
@@ -240,7 +240,7 @@ function App() {
                 in.
               </div>
               <div className=" bg-[#AC9B65] 3xs:text-[7px] 3xs:py-2 3xs:px-3 xs:text-[9px] sm:text-[20px] py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300 ">
-                Read more
+                Read More
               </div>
             </div>
           </div>
@@ -248,7 +248,7 @@ function App() {
             <div className="w-[33%]">
               <img src="images/Rectangle26.png" className="object-cover" />
             </div>
-            <div className="w-2/3 flex flex-col justify-between p-[18px] ">
+            <div className="flex flex-col justify-between w-2/3 3xs:p-4 xs:p-5 sm:p-8 ">
               <div className="3xs:text-[16px] 3xs:leading-4 xs:text-[24px] sm:text-[30px] font-Cormorant font-semibold">
                 SUSPENDISSE POTENTI
               </div>
@@ -260,7 +260,7 @@ function App() {
                 sagittis.
               </div>
               <div className=" bg-[#AC9B65] 3xs:text-[7px] 3xs:py-2 3xs:px-3 xs:text-[9px] sm:text-[20px] py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300 ">
-                Read more
+                Read More
               </div>
             </div>
           </div>
