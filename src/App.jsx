@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div className="  mx-auto bg-[#F0F0F0] border-[2px] border-opacity-20 border-[#BEBEBE]">
-        <div className=" relative bg-black">
+        <div className="relative bg-black ">
           <img
             src="images/MaskGroup1.png"
             className=" object-cover w-full max-h-[1082px] opacity-50"
@@ -14,27 +14,27 @@ function App() {
           <div className=" absolute inset-0 max-w-[1920px] mx-auto">
             <div className="3xs:hidden md:flex flex-row justify-center xl:justify-between gap-x-28 items-start mt-[33px] text-white text-[20px] px-14 font-Noto font-light">
               <div className="flex flex-row justify-between w-[492px] py-3">
-                <div className=" cursor-pointer hover:underline underline-offset-8 hover:text-indigo-500 transition-all duration-300">
+                <div className="transition-all duration-300 cursor-pointer hover:underline underline-offset-8 hover:text-indigo-500">
                   Home
                 </div>
-                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
+                <div className="transition-all duration-300 cursor-pointer hover:underline underline-offset-8 hover:text-indigo-500">
                   About
                 </div>
-                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
+                <div className="transition-all duration-300 cursor-pointer hover:underline underline-offset-8 hover:text-indigo-500">
                   Our Artists
                 </div>
-                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
+                <div className="transition-all duration-300 cursor-pointer hover:underline underline-offset-8 hover:text-indigo-500">
                   Where to Buy
                 </div>
-                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
+                <div className="transition-all duration-300 cursor-pointer hover:underline underline-offset-8 hover:text-indigo-500">
                   Blog
                 </div>
               </div>
               <div className="flex flex-row justify-between items-center w-[514px]">
-                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                <div className="transition-all duration-300 cursor-pointer hover:underline underline-offset-8 hover:text-orange-500">
                   Artist Submissions
                 </div>
-                <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                <div className="transition-all duration-300 cursor-pointer hover:underline underline-offset-8 hover:text-orange-500">
                   Trade Enquiries
                 </div>
                 <div className="bg-[#AC9B65] h-fit py-3 px-5 cursor-pointer  hover:bg-orange-700 hover:opacity-80 hover:rounded-md transition-all duration-300">
@@ -42,45 +42,44 @@ function App() {
                 </div>
               </div>
             </div>
-            <div
-              onClick={() => setToggle(!toggle)}
-              className="grid place-content-end md:hidden"
-            >
+            <div className=" md:hidden">
               <div
-                className={`absolute 3xs:end-3 xs:end-10 top-10 cursor-pointer w-8 h-1 bg-white rounded-full transition-all duration-300 before:content-[''] before:absolute before:w-8 before:h-1 before:bg-white before:rounded-full before:-translate-y-[12px] after:absolute after:w-8 after:h-1 after:bg-white after:rounded-full after:translate-y-[12px] ${
+                onClick={() => setToggle(!toggle)}
+                className={`absolute 3xs:end-5 xs:end-10 top-10 cursor-pointer w-6 h-1 bg-white rounded-full transition-all duration-300 before:content-[''] before:absolute before:w-8 before:h-1 before:bg-white before:rounded-full before:-translate-y-[12px] after:absolute after:w-8 after:h-1 after:bg-white after:rounded-full after:translate-y-[12px] ${
                   toggle
                     ? `z-50 h-[0] before:bg-white before:rotate-45 before:translate-y-[12px] before:transition-all before:duration-500 after:bg-white after:-rotate-45 after:translate-y-[12px] after:transition-all after:duration-500`
                     : null
                 }`}
               ></div>
+
               <div
-                className={`text-white w-full h-80 flex justify-center gap-10 3xs:text-[10px] 2xs:text-[16px] ${
-                  toggle ? "bg-black absolute top-0 opacity-90" : "3xs:hidden"
+                className={` bg-black text-white w-full h-80 flex justify-center gap-10 3xs:text-[10px] 2xs:text-[16px] transition-opacity duration-500  ${
+                  toggle ? "absolute top-0 opacity-90 " : "3xs:hidden opacity-0"
                 }`}
               >
-                <div className="grid grid-rows-5 place-items-start items-center py-10 xs:pr-16">
-                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
+                <div className="grid items-center grid-rows-5 py-10 place-items-start xs:pr-16">
+                  <div className="transition-all duration-300 cursor-pointer hover:underline underline-offset-8 hover:text-indigo-500">
                     Home
                   </div>
-                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
+                  <div className="transition-all duration-300 cursor-pointer hover:underline underline-offset-8 hover:text-indigo-500">
                     About
                   </div>
-                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
+                  <div className="transition-all duration-300 cursor-pointer hover:underline underline-offset-8 hover:text-indigo-500">
                     Our Artists
                   </div>
-                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
+                  <div className="transition-all duration-300 cursor-pointer hover:underline underline-offset-8 hover:text-indigo-500">
                     Where to Buy
                   </div>
-                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-indigo-500 transition-all duration-300">
+                  <div className="transition-all duration-300 cursor-pointer hover:underline underline-offset-8 hover:text-indigo-500">
                     Blog
                   </div>
                 </div>
-                <div className="grid grid-rows-5 gap-12 place-items-start items-center py-10 sm:pr-16 ">
+                <div className="grid items-center grid-rows-5 gap-12 py-10 place-items-start sm:pr-16 ">
                   <div></div>
-                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                  <div className="transition-all duration-300 cursor-pointer hover:underline underline-offset-8 hover:text-orange-500">
                     Artist Submissions
                   </div>
-                  <div className=" cursor-pointer hover:underline underline-offset-8  hover:text-orange-500 transition-all duration-300">
+                  <div className="transition-all duration-300 cursor-pointer hover:underline underline-offset-8 hover:text-orange-500">
                     Trade Enquiries
                   </div>
                   <div className="bg-[#AC9B65] h-fit py-1 px-2 cursor-pointer  hover:bg-orange-700 hover:opacity-90 hover:rounded-md transition-all duration-300">
@@ -90,7 +89,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="text-white mt-18 flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center text-white mt-18">
               <div className="3xs:mt-8 xl:mt-20 ">
                 <img
                   src="images/Image1.png"
@@ -118,7 +117,7 @@ function App() {
           <div className="text-[#AC9B65] text-center 2xs:text-[20px] xs:text-[30px] md:text-[40px] 2xl:text-[50px] font-Cormorant">
             DUIS TINCIDUNT ORNARE DIGNISSIM
           </div>
-          <div className="mt-10 place-items-center grid  gap-8 2xs:grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 ">
+          <div className="grid gap-8 mt-10 place-items-center 2xs:grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 ">
             <div className="2xs:w-[280px] 2xs:h-[420px] xs:w-[534px] xs:h-[616px] flex flex-col justify-between border-[1px] border-[#BEBEBE] shadow-[0px_0px_5px_rgba(0,0,0,0.25)] bg-white">
               <div className="">
                 <img src="images/Rectangle6.png" className="object-cover" />
@@ -185,22 +184,22 @@ function App() {
             dignissim.
           </div>
           <div className="mt-8 grid grid-cols-3 3xs:grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 2xl:grid-cols-6 gap-[40px] ">
-            <div className="transition duration-200 hover:opacity-60 cursor-pointer">
+            <div className="transition duration-200 cursor-pointer hover:opacity-60">
               <img src="images/Rectangle15.png" className="w-[248px] h-auto " />
             </div>
-            <div className="transition duration-200 hover:opacity-60 cursor-pointer">
+            <div className="transition duration-200 cursor-pointer hover:opacity-60">
               <img src="images/Rectangle16.png" className="w-[248px] h-auto" />
             </div>
-            <div className="transition duration-200 hover:opacity-60 cursor-pointer">
+            <div className="transition duration-200 cursor-pointer hover:opacity-60">
               <img src="images/Rectangle18.png" className="w-[248px] h-auto" />
             </div>
-            <div className="transition duration-200 hover:opacity-60 cursor-pointer">
+            <div className="transition duration-200 cursor-pointer hover:opacity-60">
               <img src="images/Rectangle17.png" className="w-[248px] h-auto" />
             </div>
-            <div className="transition duration-200 hover:opacity-60 cursor-pointer">
+            <div className="transition duration-200 cursor-pointer hover:opacity-60">
               <img src="images/Rectangle20.png" className="w-[248px] h-auto" />
             </div>
-            <div className="transition duration-200 hover:opacity-60 cursor-pointer">
+            <div className="transition duration-200 cursor-pointer hover:opacity-60">
               <img src="images/Rectangle19.png" className="w-[248px] h-auto" />
             </div>
           </div>
@@ -288,7 +287,7 @@ function App() {
               </div>
               <div>
                 Email:
-                <span className=" underline underline-offset-1">
+                <span className="underline underline-offset-1">
                   <a href="mailto: admin@bucksfineart.co.uk">
                     admin@bucksfineart.co.uk
                   </a>
