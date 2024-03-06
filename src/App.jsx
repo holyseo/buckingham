@@ -274,7 +274,7 @@ function App() {
           <div>
             <img src="images/Image2.png" className="object-cover" />
           </div>
-          <div className="max-w-[1134px] flex flex-col text-center justify-between items-center gap-3 3xs:text-[0] 2xs:text-[12px] sm:text-[18px] text-[#5F5F5F] font-Noto">
+          <div className="pt-3 max-w-[1134px] flex flex-col text-center justify-between items-center gap-3 3xs:text-[0] 2xs:text-[12px] sm:text-[18px] text-[#5F5F5F] font-Noto">
             <p>
               © Buckingham Fine Art Publishers Ltd, Unit D, Denbigh West
               Business Park, Third Avenue, Milton Keynes, Bucks. MK1 1DH.
