@@ -132,7 +132,7 @@ function App() {
                 Duis tincidunt ornare dignissim. Duis mi risus, tincidunt varius
                 condimentum in.
               </div>
-              <div className="bg-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-3 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300 ">
+              <div className="bg-[#AC9B65] border-2 border-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-2 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto transition-all hover:text-[#AC9B65] hover:bg-white duration-200 hover:shadow-lg hover:shadow-gray-300 ">
                 Artist Submissions
               </div>
             </div>
@@ -150,7 +150,7 @@ function App() {
                 condimentum in. Suspendisse at lorem id velit condimentum
                 sagittis. Praesent ac feugiat nisi.
               </div>
-              <div className="bg-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-3 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300">
+              <div className="bg-[#AC9B65] border-2 border-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-2 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto transition-all hover:text-[#AC9B65] hover:bg-white duration-200 hover:shadow-lg hover:shadow-gray-300 ">
                 Trade Enquiries
               </div>
             </div>
@@ -168,7 +168,7 @@ function App() {
                 ad litora torquent per conubia nostra, per inceptos himenaeos.
                 Suspendisse potenti.
               </div>
-              <div className="bg-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-3 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300">
+              <div className="bg-[#AC9B65] border-2 border-[#AC9B65] 2xs:text-[12px] xs:text-[20px] p-2 w-fit text-white mx-8 mb-6 cursor-pointer font-Noto transition-all hover:text-[#AC9B65] hover:bg-white duration-200 hover:shadow-lg hover:shadow-gray-300 ">
                 Where to Buy
               </div>
             </div>
@@ -239,7 +239,7 @@ function App() {
                 ornare dignissim. Duis mi risus, tincidunt varius condimentum
                 in.
               </div>
-              <div className=" bg-[#AC9B65] 3xs:text-[7px] 3xs:py-2 3xs:px-3 xs:text-[9px] sm:text-[20px] py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300 ">
+              <div className=" bg-[#AC9B65] border-2 border-[#AC9B65] 3xs:text-[7px] 3xs:py-2 3xs:px-3 xs:text-[9px] sm:text-[20px] w-fit text-white cursor-pointer font-Noto transition-all hover:bg-white hover:text-[#AC9B65] duration-200 hover:shadow-lg hover:shadow-gray-300 ">
                 Read More
               </div>
             </div>
@@ -259,7 +259,7 @@ function App() {
                 condimentum in. Suspendisse at lorem id velit condimentum
                 sagittis.
               </div>
-              <div className=" bg-[#AC9B65] 3xs:text-[7px] 3xs:py-2 3xs:px-3 xs:text-[9px] sm:text-[20px] py-3 px-5 w-fit text-white cursor-pointer font-Noto transition-all hover:scale-105 duration-200 hover:shadow-lg hover:shadow-gray-300 ">
+              <div className=" bg-[#AC9B65] border-2 border-[#AC9B65] 3xs:text-[7px] 3xs:py-2 3xs:px-3 xs:text-[9px] sm:text-[20px] w-fit text-white cursor-pointer font-Noto transition-all hover:bg-white hover:text-[#AC9B65] duration-200 hover:shadow-lg hover:shadow-gray-300 ">
                 Read More
               </div>
             </div>
