@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <div className="  mx-auto bg-[#F0F0F0] border-[2px] border-opacity-20 border-[#BEBEBE]">
+      <div className="  mx-auto bg-[#F0F0F0] border-[2px] border-opacity-20 border-[#BEBEBE] ">
         <div className="relative bg-black ">
           <img
             src="images/MaskGroup1.png"
@@ -100,14 +100,14 @@ function App() {
                 INVESTING IN INNOVATIVE ARTISTS
                 <span className="text-[#AC9B65]"> SINCE 1983</span>
               </div>
-              <div className="max-w-[764px] 3xs:mt-3 xl:mt-6 3xs:text-[0] xs:text-[16px] sm:text-[20px] mx-5 text-center tracking-wide font-Noto font-[300] ">
+              <div className="max-w-[764px] 3xs:mt-2 xl:mt-6 3xs:text-[0] xs:text-[16px] sm:text-[20px] mx-5 text-center tracking-wide font-Noto font-[300] ">
                 Suspendisse at lorem id velit condimentum sagittis. Praesent ac
                 feugiat nisi. Class aptent taciti sociosqu ad litora torquent
                 per conubia nostra, per inceptos himenaeos. Suspendisse potenti.
                 Duis tincidunt ornare dignissim. Duis mi risus, tincidunt varius
                 condimentum in.
               </div>
-              <div className="xs:mt-6 sm:mt-16 3xs:hidden sm:block sm:text-[20px] border-2 border-white px-4 py-2 cursor-pointer font-Noto font-[300]  hover:bg-orange-800 hover:opacity-80 transition-all duration-300">
+              <div className="xs:mt-6 sm:mt-16 3xs:hidden xsm:block sm:text-[20px] border-2 border-white px-4 py-2 cursor-pointer font-Noto font-[300]  hover:bg-orange-800 hover:opacity-80 transition-all duration-300">
                 About us
               </div>
             </div>
